@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompozime</title>
+    <style>
+        /* Your CSS styles can go here */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #f2f4f4;
+            margin: 0;
+            padding: 0;
+            background-image: url('assets/css/images/bg3.webp'); /* Replace 'background-image.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .overlay {
+            background-image: url('assets/css/images/overlay.png'); /* Replace 'transparent-overlay.png' with the path to your transparent overlay image */
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: -1;
+        }
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        .panel h2 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #252323;
+            margin-bottom: 20px;
+        }
+        .panel-content {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .panel p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .col-4 {
+            flex: 0 0 calc(33.33% - 20px);
+            margin-bottom: 20px;
+        }
+        .col-4 img {
+            width: 50%; /* Adjust the width here */
+            height: auto;
+            border-radius: 10px;
+        }
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/css/images/bg3.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.overlay {
+    background-image: url('assets/css/images/overlay.png');
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin:auto;
+}
+/* Continue from previous CSS */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .col-4 {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+@media (max-width: 480px) {
+    .col-4 {
+        flex: 0 0 calc(100% - 20px);
+    }
+}
+
+/* Link styles */
+a {
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-buttons {
+    display: flex;
+}
+
+.top-buttons a {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.top-buttons a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+    </style>
+</head>
+<body>
+    
+    <div class="overlay"></div>
+    <div class="container">
+        <article id="about" class="panel">
+            <header>
+                <h2>Kompozime</h2>
+            </header>
+            <div class="panel-content">               
+                 <p>Welcome to Aurus Flower Art! We specialize in creating breathtaking floral arrangements that bring joy and beauty to any occasion. Our team of talented florists is dedicated to providing you with the highest quality flowers and exceptional service.</p>
+                <p>Whether you're planning a wedding, corporate event, or simply want to brighten someone's day, Aurus Flower Art has the perfect floral solution for you. We pride ourselves on our attention to detail and ability to transform your vision into reality.</p>
+                <p>Contact us today to learn more about our services and how we can help make your next event unforgettable.</p>
+                <section id="kompozime">
+                    <h3>Kompozime</h3>
+                    <div class="row">
+                        <div class="col-4 col-6-medium col-12-small">
+                            <a href="#" class="image fit"><img src="images/foto 8.jpg" alt=""></a>
+                            <p>Description: Your description here.</p>
+                            <p>Price: $Your price here</p>
+                        </div>
+                        <div class="col-4 col-6-medium col-12-small">
+                            <a href="#" class="image fit"><img src="images/foto 9.jpg" alt=""></a>
+                            <p>Description: Your description here.</p>
+                            <p>Price: $Your price here</p>
+                        </div>
+                        <div class="col-4 col-6-medium col-12-small">
+                            <a href="#" class="image fit"><img src="images/foto 14.jpg" alt=""></a>
+                            <p>Description: Your description here.</p>
+                            <p>Price: $Your price here</p>
+                        </div>
+                        <div class="col-4 col-6-medium col-12-small">
+                            <a href="#" class="image fit"><img src="images/foto 11.jpg" alt=""></a>
+                            <p>Description: Your description here.</p>
+                            <p>Price: $Your price here</p>
+                        </div>
+                        <!-- Add more images for Kompozime as needed -->
+                        <div class="col-4 col-6-medium col-12-small">
+                            <a href="#" class="image fit"><img src="images/foto 12.jpg" alt=""></a>
+                            <p>Description: Your description here.</p>
+                            <p>Price: $Your price here</p>
+                        </div>
+                        <div class="col-4 col-6-medium col-12-small">
+                            <a href="#" class="image fit"><img src="images/foto 13.jpg" alt=""></a>
+                            <p>Description: Your description here.</p>
+                            <p>Price: $Your price here</p>
+                        </div>
+                    <!-- Add your content for Kompozime here -->
+                </section>
+            </div>
+        </article>
+    </div>
+</body>
+</html>

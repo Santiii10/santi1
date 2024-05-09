@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Aurus Flower Art</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            /* CSS code to adjust the size of the image within the .pic container */
+            .pic {
+    width: 75% !important; /* Set the width of the .pic container to 100% of its parent */
+    max-width: 600% !important; /* Limit the maximum width of the .pic container */
+    margin: 0 auto !important; /* Center the .pic container horizontally */
+    overflow: hidden !important;
+    text-align: left; /* Hide any overflowing content */
+}
+
+.pic img {
+    width: 100% !important; /* Set the width of the image to 100% of its container */
+    height: auto !important; /* Allow the image's height to adjust proportionally */
+    display: block !important; /* Ensure the image is displayed as a block element */
+}
+.art-menu {
+            background-color: #ffffff; /* White background */
+            color: #333333; /* Dark text color */
+            border: 2px solid #333333; /* Dark border */
+            padding: 8px 16px; /* Padding */
+            border-radius: 4px; /* Rounded corners */
+            margin-right: 10px; /* Spacing between buttons */
+        }
+        
+    /* CSS for the logo */
+    #logo {
+        position: absolute !important; /* Position the logo absolutely */
+        top: -42px !important; /* Adjust the top position */
+        left: 100px !important ;
+        width: 200px !important; /* Set the width of the logo */
+        height: auto !important; /* Allow the height to adjust proportionally */
+        z-index: 700 !important; /* Ensure the logo appears above other content */
+        font-weight: bold !important
+    }
+    #logo img {
+    filter: invert(100%); /* Invert the colors of the logo image */
+}
+    #courses {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.course {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.course img {
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.course-info {
+    flex-grow: 1;
+}
+
+.course-info h3 {
+    margin-top: 0;
+}
+
+.course-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-info ul li {
+    margin-bottom: 5px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery figure {
+    flex-basis: calc(50% - 10px);
+}
+
+.gallery img {
+    border-radius: 8px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-item {
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.work-description {
+    background-color: #f9f9f9; /* Background color for the description */
+    padding: 10px;
+    border: 1px solid #ddd; /* Border for the description */
+}
+
+.work-description h3 {
+    margin-top: 0;
+}
+
+.work-description p {
+    margin-bottom: 0;
+}
+.video {
+    width: 100% !important; /* Adjust the width as needed */
+    height: auto !important; /* Maintain aspect ratio */
+    object-fit: cover !important; /* Or choose another value that suits your layout */
+    overflow: hidden !important;
+    margin-top: 20px !important; /* Hide any overflowing content */
+}
+.top-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-buttons a {
+    color: #fff;
+    background-color: #aa9f0b; /* Blue color */
+    padding: 0.5px 0.5px;
+    border-radius: 5px;
+    text-decoration:double;
+    margin-left: 10px;
+}
+
+.top-buttons a:hover {
+    background-color: #58ecd1; /* Darker blue color on hover */
+}
+        </style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+                <img id="logo" src="images/auruslogo7.png" alt="Logo">
+
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+                        <a href="#about" class="icon solid fa-info"><span>About</span></a>
+                        <a href="#work" class="icon solid fa-palette"><span>Art</span></a>
+
+                        <a href="#courses" class="icon solid fa-paint-brush"><span>Trajnime</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="https://www.instagram.com/aurus_flower_art/" class="icon brands fa-instagram"><span>Instagram</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+                                    <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; color:#b99806;">Aurus Flower Art</h1>
+                                    <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; color: rgb(28, 26, 27);">Specialist i Luleve te Thara</p>
+                                </header>
+                                
+								<a href="#about" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/krijo3.jpg" alt="" />
+								</a>
+                                <video class="video" controls autoplay loop muted playsinline>
+                                    <source src="images/AurusVideo.mp4" type="video/mp4">
+                                    <!-- Include additional source elements for other video formats if needed -->
+                                    Your browser does not support the video tag.
+                                </video>
+                            </article>
+                                <article id="about" class="panel">
+                                    <header style="text-align: center;">
+                                        <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px;">About</h2>
+                                    </header>
+                                    <div style="max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+                                        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #666; font-size: 16px; line-height: 1.6;">Welcome to Aurus Flower Art! We specialize in creating breathtaking floral arrangements that bring joy and beauty to any occasion. Our team of talented florists is dedicated to providing you with the highest quality flowers and exceptional service.</p>
+                                        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #666; font-size: 16px; line-height: 1.6;">Whether you're planning a wedding, corporate event, or simply want to brighten someone's day, Aurus Flower Art has the perfect floral solution for you. We pride ourselves on our attention to detail and ability to transform your vision into reality.</p>
+                                        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #666; font-size: 16px; line-height: 1.6;">Contact us today to learn more about our services and how we can help make your next event unforgettable.</p>
+                                    </div>
+                        </article>
+                                                           
+							</article>
+                            <article id="work" class="panel">
+                                <header>
+                                    <!-- Buttons for Kompozime and Personalizime -->
+                                    <div class="top-buttons">
+                                        <a href="personalizime.html" class="button">Personalizime</a>
+                                        <a href="kompozime.html" class="button">Kompozime</a>
+                                    </div>
+                                    <h2>Art</h2>
+                                </header>
+                                <!-- Rest of the content -->
+                            </article>
+                                                    
+                   
+                            <article id="courses" class="panel">
+                                <header style="text-align: left;">
+                                    <h2>Trajnime</h2>
+                                </header>
+                                <div class="course">
+                                    <img src="images/pic3.jpg" alt="Course Image" width="350" height="250">
+                                    <div class="course-info">
+                                        <h3>Course Name 1</h3>
+                                        <p>Description of the course goes here...</p>
+                                        <ul>
+                                            <li><strong>Duration:</strong> X weeks/months</li>
+                                            <li><strong>Start Date:</strong> [Insert Date]</li>
+                                            <li><strong>Location:</strong> [Insert Location]</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <img src="images/pic4.jpg" alt="Course Image" width="350" height="250">
+                                    <div class="course-info">
+                                        <h3>Course Name 2</h3>
+                                        <p>Description of the course goes here...</p>
+                                        <ul>
+                                            <li><strong>Duration:</strong> X weeks/months</li>
+                                            <li><strong>Start Date:</strong> [Insert Date]</li>
+                                            <li><strong>Location:</strong> [Insert Location]</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Add more course sections as needed -->
+                            
+                            
+                            <!-- Students' Work Section -->
+                            <section class="panel">
+                                <header>
+                                            <h2>Students' Work</h2>
+                                        </header>
+                                        <p>View some of the outstanding work created by our students:</p>
+                                        <!-- Gallery of student work -->
+                                        <div class="gallery">
+                                            <div class="work-item">
+                                                <img src="images/pic1.jpg" alt="Student Work 1" width="250" height="250">
+                                                <div class="work-description">
+                                                    <h3>Description of Student Work 1</h3>
+                                                    <p>Details about the student work can be provided here...</p>
+                                                </div>
+                                            </div>
+                                            <div class="work-item">
+                                                <img src="images/pic2.jpg" alt="Student Work 2" width="250" height="250">
+                                                <div class="work-description">
+                                                    <h3>Description of Student Work 2</h3>
+                                                    <p>Details about the student work can be provided here...</p>
+                                                </div>
+                                            </div>
+                                            <!-- Add more student work examples as needed -->
+                                        </div>
+                                    </section>
+                                    
+                            </article>
+
+                            <!-- Add more content as needed -->
+                            <!-- Add more content as needed -->
+                            
+						<!-- Contact -->
+
+                                <article id="contact" class="panel">
+                                    <header>
+                                        <h2>Contact Us</h2>
+                                    </header>
+                                    <form action="mailto:sinaserxhio@gmail.com" method="post" enctype="text/plain">
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-6 col-12-medium">
+                                                    <input type="text" name="name" placeholder="Name" required>
+                                                    
+                                                </div>
+                                                <div class="col-6 col-12-medium">
+                                                    <input type="email" name="email" placeholder="Email" required>
+                                                </div>
+                                                <div class="col-6 col-12-medium">
+                                                    <input type="text" name="Mosha" placeholder="Mosha" required>
+                                                </div>
+                                                <div class="col-6 col-12-medium">
+                                                    <input type="text" name="Phone" placeholder="Phone" required>
+                                                </div>
+                                                <div class="col-12">
+                                                    <input type="text" name="subject" placeholder="Subject">
+                                                </div>
+                                                <div class="col-12">
+                                                    <textarea name="message" placeholder="Write your order here" rows="6" required></textarea>
+                                                </div>
+                                                <div class="col-12">
+                                                    <input type="submit" value="Send Message">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <p>Find us on Google Maps: <a href="https://www.google.com/maps/place/Aurus/data=!4m7!3m6!1s0x1345338b4d3c5db5:0x22305cfc304b4125!8m2!3d40.4554261!4d19.4866357!16s%2Fg%2F11sgkfmy7h!19sChIJtV08TYszRRMRJUFLMPxcMCI?authuser=0&hl=en&rclk=1" target="_blank" style="color: turquoise;">Aurus Flower Art</a></p>
+                                    <div class="contact-details">
+                                        <p>Address: Vlore, zona e skeles ngjitur me Chocolatier</p>
+                                        <p>Contact us at: aurela.shytaj@yahoo.com</p>
+                                    </div>
+                                    </div>
+                                </article>
+                                
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Aurus Flower Art.</li><li>Design: <a href="aurusflowerart.com">Aurus Flower Art</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+            <script type="text/javascript">
+                (function () {
+                    var options = {
+                        whatsapp: "+355692030056", // WhatsApp number
+                        call_to_action: "Contact us on WhatsApp!", // Call to action
+                        button_color: "#25d366", // Color of button (WhatsApp green)
+                        position: "right", // Position may be 'right' or 'left'
+                        order: "whatsapp", // Order of buttons
+                    };
+                    var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+                    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                    s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+                })();
+            </script>
+            <script>
+                function toggleSubmenus() {
+                    var submenuArt = document.getElementById("submenu-art");
+                    if (submenuArt.style.display === "none") {
+                        submenuArt.style.display = "block";
+                    } else {
+                        submenuArt.style.display = "none";
+                    }
+                }
+            </script>
+
+	</body>
+</html>
